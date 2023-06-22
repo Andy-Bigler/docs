@@ -6,13 +6,19 @@ repos:
       - id: end-of-file-fixer
         exclude_types: ['markdown']
         stages: [commit]
+        exclude: '\.obsidian\/'
       - id: trailing-whitespace
         exclude_types: ['markdown']
         stages: [commit]
+        exclude: '\.obsidian\/'
       - id: mixed-line-ending
         stages: [commit]
+        exclude: '\.obsidian\/'
       - id: check-byte-order-marker
         stages: [commit]
+        exclude: '\.obsidian\/'
       - id: check-executables-have-shebangs
         stages: [commit]
+        exclude: '\.obsidian\/'
       - id: check-merge-conflict
+        exclude: '\.obsidian\/'
