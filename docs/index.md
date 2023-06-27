@@ -1,4 +1,4 @@
 # Docs
 
-- Homebase Test: [[test/000 Index|Index Test]]
+- Homebase Dev: [[dev/000 Index|Index Dev]]
 - Homebase Local: [[local/000 Index|Index Local]]
