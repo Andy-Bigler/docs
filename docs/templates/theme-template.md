@@ -1,8 +1,10 @@
-tags: 
+tags:
+
+# {{title}}
+
 links: link - [[dev/000 Index|Index]]
 
 ---
-# {{title}}
 
 
 

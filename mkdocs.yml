@@ -1,9 +1,25 @@
 site_name: Docs
+# fix 404 error
+site_url: https://andy-bigler.github.io/docs/
+
+nav:
+  - 'Index': 'index.md'
+  - 'Dev';
+    - 'Git': 'dev/Git.md'
 
 theme:
     name: 'material'
-    palette:
+    language: en
 
+    features:
+      # enable instant loading (XHR) -> won't work well with latex math
+      #- navigation.instant
+      - navigation.top
+      - search.highlight
+      - navigation.indexes
+      - navigation.tabs
+
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -12,7 +28,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -25,12 +40,15 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
@@ -58,3 +76,8 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Andy-Bigler/docs
