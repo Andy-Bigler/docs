@@ -4,7 +4,7 @@ site_url: https://andy-bigler.github.io/docs/
 
 nav:
   - 'Index': 'index.md'
-  - 'Dev';
+  - 'Dev':
     - 'Git': 'dev/Git.md'
 
 theme:
