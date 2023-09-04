@@ -6,6 +6,7 @@ nav:
   - 'Index': 'index.md'
   - 'Dev':
     - 'Git': 'dev/Git.md'
+    - 'Docker': 'dev/Docker.md'
 
 theme:
     name: 'material'
