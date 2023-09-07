@@ -20,5 +20,11 @@ Delete those branches
 git branch --no-contains main --merged main | xargs git branch -d
 ```
 
+Delete remote branch
+
+```
+git push origin --delete BRANCH
+```
+
 ---
 links: [[dev/000 Index|Index]]
