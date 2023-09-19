@@ -15,4 +15,4 @@ tags
 **/.obsidian/workspace.json
 **/.obsidian/app.json
 # exclude local files
-*/local
+local/
