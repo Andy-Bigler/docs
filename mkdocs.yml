@@ -7,6 +7,7 @@ nav:
   - 'Dev':
     - 'Git': 'dev/Git.md'
     - 'Docker': 'dev/Docker.md'
+    - 'Cloud Founry': 'dev/Cloud\ Foundry.md'
 
 theme:
     name: 'material'
