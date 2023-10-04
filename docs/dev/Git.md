@@ -2,7 +2,7 @@ tags: #git
 
 # Git
 
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]
 
 ---
 
@@ -27,4 +27,4 @@ git push origin --delete BRANCH
 ```
 
 ---
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]

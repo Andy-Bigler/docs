@@ -2,7 +2,7 @@ tags: #docker
 
 # Docker
 
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]
 
 ---
 
@@ -35,4 +35,4 @@ docker exec -i CONTAINER mysql -u USER -pPASSWORD DATABASE < ./xyz.sql
 ```
 
 ---
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]

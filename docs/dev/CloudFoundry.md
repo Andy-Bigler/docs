@@ -2,7 +2,7 @@ tags: #cloud
 
 # Cloud Foundry
 
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]
 
 ---
 ## Restart
@@ -14,4 +14,4 @@ cf restart APP-NAME --strategy rolling
 ```
 
 ---
-links: [[dev/000 Index|Index]]
+links: [[dev/000_Index|Index]]
