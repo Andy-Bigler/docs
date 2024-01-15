@@ -11,13 +11,13 @@ links: [[dev/000_Index|Index]]
 For images without bash
 
 ```
-docker run --rm -i -t CONTAINER /bin/sh --login
+docker exec -it CONTAINER /bin/sh --login
 ```
 
 For images with bash
 
 ```
-docker exec -t -i CONTAINER /bin/bash
+docker exec -it CONTAINER /bin/bash
 ```
 
 ## Interacting with MariaDB
